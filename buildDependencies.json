@@ -1,0 +1,24 @@
+[
+    {
+        "image": {
+            "registry": "jengademos.azurecr-test.io",
+            "repository": "helloworld",
+            "tag": "v1",
+            "digest": "sha256:f03443ffaa7dd206e1b7299d85552bc5d73b6ab6c1bd6298e58b412eff6c05c6"
+        },
+        "runtime-dependency": {
+            "registry": "microsoft",
+            "repository": "aspnetcore",
+            "tag": "2.0",
+            "digest": "sha256:3dd91dfc75309d7b9b03e7ce2b5537fd0a8a51c74ba5af31f4688a600746be17"
+        },
+        "buildtime-dependency": [
+            {
+                "registry": "microsoft",
+                "repository": "aspnetcore-build",
+                "tag": "2.0",
+                "digest": "sha256:8314a18ed2a4971a7628be46fecc469082afe0689815351cd9d6b62e9823eae6"
+            }
+        ]
+    }
+]
